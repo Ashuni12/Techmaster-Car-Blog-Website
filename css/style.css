@@ -1,0 +1,227 @@
+@font-face {
+    font-family: poppins;
+    src: url(/img/poppins.regular.ttf);
+  }
+  body {
+    padding: 0px;
+    border: 0px;
+    font-family: poppins;
+  }
+  .bttn:hover {
+    outline: none;
+    color: white;
+    background-color: #fc3a3a;
+  }
+  .navigation {
+    background-color: #232536;
+  }
+  .logo-name {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+  .nav-link {
+    font-family: poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+  .subscribe-btn {
+    padding: 17px 40px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+  }
+  .subscribe-btn:hover {
+    background-color: azure;
+    font-size: 16px;
+    color: black;
+  }
+  .car-img {
+    min-height: 500px;
+  }
+  .car-title {
+    font-weight: 700;
+    margin-left: 5%;
+    line-height: 80px;
+    margin-top: 2%;
+    font-size: 70px;
+  }
+  .car-text {
+    max-width: 650px;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 5%;
+  }
+  .sub-btn {
+    background: #ff5959;
+    padding: 15px 25px;
+    margin-left: 6%;
+    border-radius: 5px;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .profile-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 25px;
+    float: left;
+  }
+  .profile-name {
+    height: 20px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+  }
+  /* footer */
+  .footer {
+    margin-top: 6%;
+    margin-bottom: 0px;
+    background-color: #232536;
+    width: 100%;
+    padding: 1% 0px;
+  }
+  .subscribe-via-email {
+    padding: 5%;
+    margin: 2% 5%;
+    background: #2a2b39;
+  }
+  
+  .via-email-description {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -1px;
+    text-align: left;
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+  .via-email-form {
+    margin-top: 2%;
+  }
+  .form-control {
+    margin-bottom: 2%;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 10px;
+    padding-left: 2%;
+    font-weight: 600;
+    font-family: poppins;
+    width: 100%;
+  }
+  .via-sub-btn {
+    background: #ff5959;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .address {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 0px;
+  }
+  .socialmedia-link-container {
+    text-align: right;
+    margin: -1% 5% 0% 5%;
+  }
+  .socialmedia-link {
+    height: 17px;
+    margin-right: 3%;
+  }
+  .all-post-container {
+    padding: 2% 5%;
+    margin-bottom: 7%;
+  }
+  .all-title {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-align: left;
+  }
+  .hr-line {
+    border: 1px solid #2325364d;
+    margin: 3% 0%;
+  }
+  .post-blog {
+    margin-bottom: 3%;
+    cursor: pointer;
+  }
+  .post-blog:hover {
+    background-color: #e8f7f8;
+  }
+  .post-image {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .post-text {
+    padding: 1%;
+  }
+  .post-text-title {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 37px;
+    text-align: left;
+    padding-right: 20%;
+    margin-bottom: 4%;
+  }
+  .post-text-profile {
+    display: block;
+    margin-bottom: 8%;
+  }
+  .post-text-comment {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-right: 15%;
+    margin-bottom: 8%;
+  }
+  .post-text-btn {
+    background: #ff5959;
+    padding: 9px 35px;
+    border-radius: 5px;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
